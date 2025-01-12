@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyberpunk 2077</title>
+  <link rel="shortcut icon" href="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="main w-full">
+    <nav class="fixed top-0 left-0 flex justify-between items-center w-full">
+      <img class="w-[200px] px-10 py-8 mix-blend-screen filter saturate-150 contrast-125" src="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" alt="">
+      <div class="flex gap-6 px-10 text-white text-xl">
+        <a href="#" class="hover:text-blue-400 hover:text-shadow-[0_0_10px_#60A5FA] transition-all duration-300">Home</a>
+        <a href="#" class="hover:text-blue-400 hover:text-shadow-[0_0_10px_#60A5FA] transition-all duration-300">About</a>
+        <a href="#" class="hover:text-blue-400 hover:text-shadow-[0_0_10px_#60A5FA] transition-all duration-300">Projects</a>
+        <a href="#" class="hover:text-blue-400 hover:text-shadow-[0_0_10px_#60A5FA] transition-all duration-300">Contact</a>
+      </div>
+    </nav>
+    
+    <div class="w-full h-screen overflow-hidden">
+      <img id="blink" class="absolute left-1/2 top-1/2 w-3/4 mix-blend-screen -translate-x-1/2 -translate-y-1/2 filter saturate-150 contrast-125" src="https://i.redd.it/3d-rendered-the-cyberpunk-logo-using-blender-v0-khopj82wqee91.png?width=1920&format=png&auto=webp&s=f42dbd8f5c04aedb9ba9291c1ba4d679029cc1f3" alt="">
+      <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-[20rem] w-[20rem] bg-blue-600 rounded-full blur-[100px] z-[-1]"></div>
+      <canvas id="canvas"></canvas>
+    </div>
+    <div class="w-full h-screen bg-black"></div>
+  </div>
+  
+</body>
+<script type="module" src="main.js"></script>
+</html>
